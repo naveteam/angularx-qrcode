@@ -59,9 +59,6 @@
     "prepublishOnly": "npm run ci",
     "preversion": "npm run ci"
   },
-  "dependencies": {
-    "qrcodejs2": "0.0.2"
-  },
   "peerDependencies": {
     "@angular/common": ">= 5.0.0 < 7.3.0",
     "@angular/core": ">= 5.0.0 < 7.3.0"

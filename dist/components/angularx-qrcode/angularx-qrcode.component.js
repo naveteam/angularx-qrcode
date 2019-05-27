@@ -8,7 +8,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 import { ChangeDetectionStrategy, Component, ElementRef, Input } from '@angular/core';
-import * as QRCode from 'qrcodejs2';
+import * as QRCode from '../../../packages/qrcodejs2';
 var QRCodeComponent = /** @class */ (function () {
     function QRCodeComponent(el) {
         var _this = this;
